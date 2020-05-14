@@ -19,24 +19,6 @@
 soong_namespace {
 }
 
-cc_prebuilt_library_shared {
-	name: "libplatformconfig",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/libplatformconfig.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/lib64/libplatformconfig.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-}
-
 android_app_import {
 	name: "SoterService",
 	owner: "realme",
