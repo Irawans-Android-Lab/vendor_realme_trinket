@@ -103,6 +103,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "imssettings",
+	owner: "realme",
+	apk: "proprietary/product/app/imssettings/imssettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "uceShimService",
 	owner: "realme",
 	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
@@ -392,6 +403,13 @@ dex_import {
 	name: "vendor.qti.ims.rcsconfig-V1.0-java",
 	owner: "realme",
 	jars: ["proprietary/product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V1.1-java",
+	owner: "realme",
+	jars: ["proprietary/product/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar"],
 	product_specific: true,
 }
 
