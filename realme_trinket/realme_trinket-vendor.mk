@@ -59,40 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/realme/realme_trinket/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/realme/realme_trinket/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_adsp_loader.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_apr.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_cs35l41.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_cs35l41.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_hdmi.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_hdmi.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_machine_msmnile.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_machine_msmnile.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_mbhc.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_native.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_pinctrl_wcd.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_pinctrl_wcd.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_platform.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_q6.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_q6_notifier.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_q6_pdr.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_stub.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_swr.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_swr_ctrl.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_tas2557.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_tas2557.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_tfa98xx.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_tfa98xx.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_usf.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_wcd934x.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd934x.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_wcd9360.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd9360.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd9xxx.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd_core.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_wcd_spi.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wcd_spi.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_wglink.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wglink.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/audio_wsa881x.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/audio_wsa881x.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/exfat.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/exfat.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/modules.alias:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/modules.alias \
-    vendor/realme/realme_trinket/proprietary/lib/modules/modules.dep:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/modules.dep \
-    vendor/realme/realme_trinket/proprietary/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/mpq-adapter.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/mpq-dmx-hw-plugin.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/qca_cld3_wlan.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/rmnet_perf.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/rmnet_perf.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/rmnet_shs.ko \
-    vendor/realme/realme_trinket/proprietary/lib/modules/tspp.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/tspp.ko \
     vendor/realme/realme_trinket/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
     vendor/realme/realme_trinket/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/realme/realme_trinket/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
@@ -201,18 +167,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/realme_trinket/proprietary/product/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/realme/realme_trinket/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/realme/realme_trinket/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_cangmen_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_cangmen_down.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_cangmen_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_cangmen_up.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_chilun_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_chilun_down.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_chilun_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_chilun_up.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_jijia_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_jijia_down.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_jijia_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_jijia_up.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_mofa_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_mofa_down.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_mofa_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_mofa_up.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_muqin_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_muqin_down.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_muqin_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_muqin_up.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_yingyan_down.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_yingyan_down.ogg \
-    vendor/realme/realme_trinket/proprietary/product/media/audio/ui/popup_yingyan_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/popup_yingyan_up.ogg \
     vendor/realme/realme_trinket/proprietary/product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libvolumelistener.so \
     vendor/realme/realme_trinket/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so
 
